@@ -1,0 +1,11 @@
+{
+  "name": "lucas-projeto1",
+  "version": "1.0.0",
+  "description": "- Objetivo: Fazer um projeto em front-end para no futuro Organizar os projetos como markdown\r     - Tecnologias: HTML, CSS / js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
