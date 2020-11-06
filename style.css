@@ -1,25 +1,30 @@
+body{
+    background-color: #BC96E6;
+}
 .container{
-    margin-top: 2rem; /* 1rem - 16px */
+    margin-top: 3rem; /* 1rem - 16px */
 }
 
-.col{
-    margin: 16px;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
 .navbar{
-    background-color: #BC96E6;
+    background-color: #210b2c;
     color: #ffffff;
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem rgba(76, 9, 107, 0.158);
+    
 }
+
 
 .jumbotron{
     margin-top: 1rem;
     background-color: #ffffff;
-    box-shadow: 0.1rem 0.1rem rgba(112, 128, 144, 0.378);
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem rgba(112, 128, 144, 0.378);
     border: none;
     border-radius: 0%;
+    background-image: url(dev.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: top -2rem left 40rem
+    
 }
 
 a{
@@ -28,11 +33,37 @@ a{
     color: #ffffff;
 }
 
-a:hover{
-    font-weight: 700;
-    color: #595959;
+.navbar-brand{
+    margin-top: 0.8rem;
+
 }
 
+a:hover{
+    font-weight: 700;
+    color: #7c52ac;
+}
+    
 a:focus{
     color: #D8B4E2;
+}
+.logo-nav{
+    border-radius: none;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.btn{
+    background-color: #210b2c;
+}
+.card{
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem rgba(112, 128, 144, 0.378);
+    
+}    
+.card-img-top{
+position: center;
+}
+
+.card-columns{
+    margin-top: 4rem;
 }
